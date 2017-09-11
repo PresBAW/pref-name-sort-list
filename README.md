@@ -24,11 +24,11 @@ newArray = prefNameSort(rawArray, pattern);
 const prefNameSort = require('pref-name-sort-list');
 
 // Example array of strings we want to query for a given pattern (our query var)
-var rawArray = ['lemon', 'apple', 'pear', 'orange', 'banana']
+var rawArray = ['lemon', 'apple', 'pear', 'orange', 'banana'];
 var query = 'a';
 
 // Filter and sort
-var newArray = []
+var newArray = [];
 newArray = prefNameSort(rawArray, query);
 
 // Return should be ['apple', 'banana', 'pear', 'orange']
