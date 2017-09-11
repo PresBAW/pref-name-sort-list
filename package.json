@@ -1,6 +1,6 @@
 {
   "name": "pref-name-sort-list",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Module that exports a function filtering an array of strings based on a user-provided regex pattern and returning an array of those strings in preferred order - i.e., pattern matches sorted in ascending order of match index.",
   "main": "index.js",
   "scripts": {
