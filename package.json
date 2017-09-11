@@ -1,0 +1,20 @@
+{
+  "name": "pref-name-sort-list",
+  "version": "1.0.0",
+  "description": "Module that exports a function filtering an array of strings based on a user-provided regex pattern and returning an array of those strings in preferred order - i.e., pattern matches sorted in ascending order of match index.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sort",
+    "list",
+    "regex",
+    "order"
+  ],
+  "author": "Benjamin Wallsten (http://bwallsten.me)",
+  "license": "MIT",
+  "dependencies": {
+    "escape-string-regexp": "^1.0.5"
+  }
+}
