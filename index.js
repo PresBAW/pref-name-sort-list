@@ -1,8 +1,8 @@
 const escapeRegExp = require('escape-string-regexp')
 
-module.exports = function(rawArray, query) { // extend to all functions
+module.exports = function(rawArray, query) {
 	// create pure functions to perform desired operations
-	// match query with country name
+	// determine truth of query (regExpObj) match with array element (target)
 	function regExpFilter(regExpObj, target) {
 		return regExpObj.test(target)
 	}
